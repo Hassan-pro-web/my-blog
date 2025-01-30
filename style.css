@@ -25,14 +25,3 @@ footer { text-align: center; padding: 1rem; background: #333; color: white; posi
 .social-icons i:hover {
     color: #ff5722; /* Change color when hovered */
 }
-.social-icons img {
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-    transition: 0.3s;
-}
-
-.social-icons img:hover {
-    transform: scale(1.2); /* Makes the icon bigger on hover */
-}
-
