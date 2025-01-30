@@ -5,5 +5,34 @@ nav a { color: white; text-decoration: none; }
 .container { width: 80%; margin: auto; padding: 2rem; }
 .blog-post { background: white; padding: 1rem; margin: 1rem 0; border-radius: 5px; }
 footer { text-align: center; padding: 1rem; background: #333; color: white; position: relative; width: 100%; }
-.dark-mode { background-color: #222; color: white; }
-.dark-mode .blog-post { background-color: #333; color: white; }
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-icons i {
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.social-icons i:hover {
+    color: #ff5722; /* Change color when hovered */
+}
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Makes the icon bigger on hover */
+}
+
