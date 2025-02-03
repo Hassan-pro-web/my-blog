@@ -12,6 +12,15 @@ nav a { color: white; text-decoration: none; }
 .container { width: 80%; margin: auto; padding: 2rem; }
 .blog-post { background: black; text color: #FF5733 /* Black */ ; padding: 1rem; margin: 1rem 0; border-radius: 5px; }
 footer { text-align: center; padding: 1rem; background: #333; color: white; position: relative; width: 100%; }
+.profile-pic {
+    width: 150px;  /* Adjust the size */
+    height: 150px; /* Keep it square */
+    border-radius: 50%; /* Makes it round */
+    border: 3px solid #fff; /* Adds a white border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds shadow */
+    display: block;
+    margin: 20px auto; /* Centers the image */
+}
 .social-icons {
     text-align: center;
     margin-top: 20px;
