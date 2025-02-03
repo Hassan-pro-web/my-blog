@@ -1,5 +1,14 @@
 body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #1e1e1e;/*Dark background*/ color: #ffffff; /* white */  transition: background 0.3s, color 0.3s; }
 header { background: #ff5722; /*orange header */ color: white; padding: 1rem; text-align: center; }
+.header {
+    background-image: url('https://github.com/Hassan-pro-web/my-blog/blob/main/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
 header h2 {
     font-size: 18px; /* Adjust size as needed */
     color: #ffffff;  /* black */
