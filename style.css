@@ -50,3 +50,14 @@ footer { text-align: center; padding: 1rem; background: #333; color: white; posi
 .social-icons i:hover {
     color: #ff5722; /* Change color when hovered */
 }
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    background: linear-gradient(-45deg, #ff7eb3, #ff758c, #ff7eb3, #ff758c);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
