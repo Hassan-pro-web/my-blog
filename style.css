@@ -1,15 +1,4 @@
 body { font-family:'Poppins', sans-serif/* Change to any font you like */Arial, sans-serif; margin: 0; padding: 0; background-color: #1e1e1e;/*Dark background*/ color: #ffffff; /* white */  transition: background 0.3s, color 0.3s; }
-@keyframes swim {
-    0% { transform: translateX(-100px); }
-    50% { transform: translateX(50vw); }
-    100% { transform: translateX(100vw); }
-}
-.shark {
-    position: absolute;
-    top: 50%;
-    width: 100px; /* Adjust size */
-    animation: swim 5s infinite linear;
-}
 header { background: #ff5722; /*orange header */ color: white; padding: 1rem; text-align: center; }
 .header {
     background-image: src="header-bg.jpg"
