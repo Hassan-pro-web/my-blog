@@ -1,3 +1,4 @@
+
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
     localStorage.setItem("darkMode", document.body.classList.contains("dark-mode"));
@@ -26,4 +27,13 @@ bulb.addEventListener("click", function () {
         bulb.style.fill = "yellow"; // On
     }
 });
+document.addEventListener("mousemove", function (event) {
+    let floatingObject = document.getElementById("floating-object");
+    let x = event.clientX / window.innerWidth * 100;
+    let y = event.clientY / window.innerHeight * 100;
+
+    floatingObject.style.left = x + "%";
+    floatingObject.style.top = y + "%";
+});
+
 
