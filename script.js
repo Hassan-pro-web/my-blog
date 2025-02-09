@@ -17,4 +17,13 @@ document.addEventListener("mousemove", function (event) {
     let y = event.clientY / window.innerHeight - 0.5;
     bulb.style.transform = `translateX(-50%) rotate(${x * 20}deg) translateY(${y * 20}px)`;
 });
+let bulb = document.getElementById("lightbulb");
+
+bulb.addEventListener("click", function () {
+    if (bulb.style.fill === "yellow") {
+        bulb.style.fill = "#424242"; // Off
+    } else {
+        bulb.style.fill = "yellow"; // On
+    }
+});
 
