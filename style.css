@@ -1,3 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1a1a1a;
+}
+
+.scene {
+    position: relative;
+    text-align: center;
+}
+
+.bulb {
+    width: 100px;
+    height: 150px;
+}
+
+.bulb-glow {
+    fill: rgba(255, 255, 0, 0.2);
+    transition: fill 0.3s ease-in-out;
+}
+
+.bulb-base {
+    fill: #888;
+}
+
+.cord {
+    stroke: white;
+    stroke-width: 2;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #f39c12;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
 body { font-family:'Poppins', sans-serif/* Change to any font you like */Arial, sans-serif; margin: 0; padding: 0; background-color: #1e1e1e;/*Dark background*/ color: #ffffff; /* white */  transition: background 0.3s, color 0.3s; }
 header { background: #ff5722; /*orange header */ color: white; padding: 1rem; text-align: center; }
 .header {
