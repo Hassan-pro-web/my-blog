@@ -15,6 +15,18 @@ body {
     width: 100px;
     height: 150px;
 }
+#lightbulb {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.5s ease-in-out;
+}
+
+#lightbulb:hover {
+    transform: translateX(-50%) scale(1.2);
+    filter: drop-shadow(0px 0px 15px yellow);
+}
 
 .bulb-glow {
     fill: rgba(255, 255, 0, 0.2);
